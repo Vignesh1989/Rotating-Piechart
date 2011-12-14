@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF8476B14986FA600DFC3FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF8476A14986FA500DFC3FF /* UIKit.framework */; };
+		2FF8476D14986FA600DFC3FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF8476C14986FA600DFC3FF /* Foundation.framework */; };
+		2FF8476F14986FA600DFC3FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF8476E14986FA600DFC3FF /* CoreGraphics.framework */; };
+		2FF8477514986FA600DFC3FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8477314986FA600DFC3FF /* InfoPlist.strings */; };
+		2FF8477714986FA600DFC3FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8477614986FA600DFC3FF /* main.m */; };
+		2FF8477B14986FA600DFC3FF /* PDFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8477A14986FA600DFC3FF /* PDFAppDelegate.m */; };
+		2FF8477E14986FA600DFC3FF /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8477D14986FA600DFC3FF /* PDFViewController.m */; };
+		2FF8478114986FA600DFC3FF /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8477F14986FA600DFC3FF /* PDFViewController.xib */; };
+		2FF8478B14986FC200DFC3FF /* BNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8478814986FC200DFC3FF /* BNColor.m */; };
+		2FF8478C14986FC200DFC3FF /* BNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8478A14986FC200DFC3FF /* BNPieChart.m */; };
+		2FF8478F1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8478E1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FF8476614986FA500DFC3FF /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF8476A14986FA500DFC3FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FF8476C14986FA600DFC3FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FF8476E14986FA600DFC3FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FF8477214986FA600DFC3FF /* PieChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PieChart-Info.plist"; sourceTree = "<group>"; };
+		2FF8477414986FA600DFC3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FF8477614986FA600DFC3FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FF8477814986FA600DFC3FF /* PieChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PieChart-Prefix.pch"; sourceTree = "<group>"; };
+		2FF8477914986FA600DFC3FF /* PDFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFAppDelegate.h; sourceTree = "<group>"; };
+		2FF8477A14986FA600DFC3FF /* PDFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFAppDelegate.m; sourceTree = "<group>"; };
+		2FF8477C14986FA600DFC3FF /* PDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		2FF8477D14986FA600DFC3FF /* PDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		2FF8478014986FA600DFC3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PDFViewController.xib; sourceTree = "<group>"; };
+		2FF8478714986FC200DFC3FF /* BNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNColor.h; sourceTree = "<group>"; };
+		2FF8478814986FC200DFC3FF /* BNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNColor.m; sourceTree = "<group>"; };
+		2FF8478914986FC200DFC3FF /* BNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPieChart.h; sourceTree = "<group>"; };
+		2FF8478A14986FC200DFC3FF /* BNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPieChart.m; sourceTree = "<group>"; };
+		2FF8478D1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		2FF8478E1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF8476314986FA500DFC3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF8476B14986FA600DFC3FF /* UIKit.framework in Frameworks */,
+				2FF8476D14986FA600DFC3FF /* Foundation.framework in Frameworks */,
+				2FF8476F14986FA600DFC3FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF8475B14986FA500DFC3FF = {
+			isa = PBXGroup;
+			children = (
+				2FF8478D1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.h */,
+				2FF8478E1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.m */,
+				2FF8477014986FA600DFC3FF /* PieChart */,
+				2FF8476914986FA500DFC3FF /* Frameworks */,
+				2FF8476714986FA500DFC3FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF8476714986FA500DFC3FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8476614986FA500DFC3FF /* PieChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF8476914986FA500DFC3FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8476A14986FA500DFC3FF /* UIKit.framework */,
+				2FF8476C14986FA600DFC3FF /* Foundation.framework */,
+				2FF8476E14986FA600DFC3FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FF8477014986FA600DFC3FF /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8478714986FC200DFC3FF /* BNColor.h */,
+				2FF8478814986FC200DFC3FF /* BNColor.m */,
+				2FF8478914986FC200DFC3FF /* BNPieChart.h */,
+				2FF8478A14986FC200DFC3FF /* BNPieChart.m */,
+				2FF8477914986FA600DFC3FF /* PDFAppDelegate.h */,
+				2FF8477A14986FA600DFC3FF /* PDFAppDelegate.m */,
+				2FF8477C14986FA600DFC3FF /* PDFViewController.h */,
+				2FF8477D14986FA600DFC3FF /* PDFViewController.m */,
+				2FF8477F14986FA600DFC3FF /* PDFViewController.xib */,
+				2FF8477114986FA600DFC3FF /* Supporting Files */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		2FF8477114986FA600DFC3FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8477214986FA600DFC3FF /* PieChart-Info.plist */,
+				2FF8477314986FA600DFC3FF /* InfoPlist.strings */,
+				2FF8477614986FA600DFC3FF /* main.m */,
+				2FF8477814986FA600DFC3FF /* PieChart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF8476514986FA500DFC3FF /* PieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF8478414986FA600DFC3FF /* Build configuration list for PBXNativeTarget "PieChart" */;
+			buildPhases = (
+				2FF8476214986FA500DFC3FF /* Sources */,
+				2FF8476314986FA500DFC3FF /* Frameworks */,
+				2FF8476414986FA500DFC3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieChart;
+			productName = PieChart;
+			productReference = 2FF8476614986FA500DFC3FF /* PieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF8475D14986FA500DFC3FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2FF8476014986FA500DFC3FF /* Build configuration list for PBXProject "PieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FF8475B14986FA500DFC3FF;
+			productRefGroup = 2FF8476714986FA500DFC3FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF8476514986FA500DFC3FF /* PieChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF8476414986FA500DFC3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF8477514986FA600DFC3FF /* InfoPlist.strings in Resources */,
+				2FF8478114986FA600DFC3FF /* PDFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF8476214986FA500DFC3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF8477714986FA600DFC3FF /* main.m in Sources */,
+				2FF8477B14986FA600DFC3FF /* PDFAppDelegate.m in Sources */,
+				2FF8477E14986FA600DFC3FF /* PDFViewController.m in Sources */,
+				2FF8478B14986FC200DFC3FF /* BNColor.m in Sources */,
+				2FF8478C14986FC200DFC3FF /* BNPieChart.m in Sources */,
+				2FF8478F1498711500DFC3FF /* KTOneFingerRotationGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FF8477314986FA600DFC3FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF8477414986FA600DFC3FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FF8477F14986FA600DFC3FF /* PDFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF8478014986FA600DFC3FF /* en */,
+			);
+			name = PDFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FF8478214986FA600DFC3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2FF8478314986FA600DFC3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF8478514986FA600DFC3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PieChart/PieChart-Prefix.pch";
+				INFOPLIST_FILE = "PieChart/PieChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FF8478614986FA600DFC3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PieChart/PieChart-Prefix.pch";
+				INFOPLIST_FILE = "PieChart/PieChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF8476014986FA500DFC3FF /* Build configuration list for PBXProject "PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF8478214986FA600DFC3FF /* Debug */,
+				2FF8478314986FA600DFC3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF8478414986FA600DFC3FF /* Build configuration list for PBXNativeTarget "PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF8478514986FA600DFC3FF /* Debug */,
+				2FF8478614986FA600DFC3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF8475D14986FA500DFC3FF /* Project object */;
+}
