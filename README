@@ -1,0 +1,8 @@
+Rotating piechart 
+
+This piechart uses two set of open source classes
+
+1. KTOneFingerRotationGestureRecognizer
+2. BNPiechart.
+
+I have just added them together.Not much code written by me. You can find the authors of the open source class by googling the class name mentioned above.
